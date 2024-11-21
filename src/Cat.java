@@ -15,4 +15,13 @@ public class Cat extends Animal {
         return true;
     }
 
+    @Override
+    public void showMood (boolean mood) {
+        if (mood) {
+            System.out.println("The cat is purring");
+        } else {
+            System.out.println("The cat is hissing");
+        }
+    }
+
 }
