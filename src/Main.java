@@ -15,6 +15,8 @@ public class Main {
         cat.showMood(true);
         cat.showMood(false);
 
+        System.out.println("Extra sout");
+
 
 
 
