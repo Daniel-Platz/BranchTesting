@@ -15,8 +15,8 @@ public class Main {
         cat.showMood(true);
         cat.showMood(false);
 
-
-
+        dog.jump(2);
+        cat.jump(3);
 
 
     }
